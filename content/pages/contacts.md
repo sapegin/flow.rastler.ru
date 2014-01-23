@@ -1,4 +1,4 @@
-Title: Контакты
+Title: Contacts
 Slug: contacts
 
 <address>

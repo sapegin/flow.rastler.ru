@@ -12,8 +12,8 @@ Summary: Продолжение предыдущей статьи, настро�
 
 В результате установится Samba 3.x. Далее редактируем конфигурационный файл примерно вот так:
 
-```
-[global]
+
+<pre><code class="text">[global]
 workgroup = workgroup
 server string = %h
 wins support = no
@@ -30,8 +30,8 @@ read only = no
 guest ok = yes
 force user = root
 create mask = 0644
+</code></pre>
 
-```
 После перезапуска `sudo service samba restart` можно попробовать получить доступ.
 
 - `Windows: \\<адрес>\torrents`
