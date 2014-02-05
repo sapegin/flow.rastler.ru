@@ -6,7 +6,7 @@ Slug: post002
 Author: Rastler
 Summary: Использование Raspberry PI как torrent-клиент с использованием transmission-daemon
 
-<img src="/static/images/raspberrypi-logo.png" height="250px" width="250px" />
+<img src="/images/raspberrypi-logo.png" height="250px" width="250px" />
 
 Первый более-менее серьезный пост в блоге будет о RaspberryPI. Я отлично понимаю, что только ленивый не писал об этом устройстве. Но тем не менее хотелось бы поделиться опытом, как я делал самое банальное, что можно сделать - торрент-качалку. И так, что нам понадобится:
 
@@ -20,7 +20,7 @@ Summary: Использование Raspberry PI как torrent-клиент с 
 
 Первая загрузка: перед нами диалоговое окно конфигурирования.
 
-<img src="/static/images/raspi-config.png" width="900px" alt="Raspberrypi configuration" class="img-thumbnail"/>
+<img src="/images/raspi-config.png" width="900px" alt="Raspberrypi configuration" class="img-thumbnail"/>
 
 Если в дальнейшем захочется вызвать эту утилиту конфигурирования снова, то:
 `sudo raspi-config`
